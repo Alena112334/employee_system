@@ -1,0 +1,59 @@
+body {
+	position:relative;
+}
+
+.workers-block {
+	position: relative;
+	text-align: justify;
+	color: #2C3539;
+	background-color: #FFFFFF;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.header {
+		position: fixed;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 99999;
+    text-align: justify;
+		color: #FFFFFF;
+		background-color: #2C3539;
+		-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    transform:translate3d(0,0,0);
+    transform: translateZ(0);
+}
+
+
+.form-group.required .control-label:after { 
+   content:"*";
+   color:red;
+}
+
+.filter-block {
+	padding-bottom: 10px;
+}
+
+.filter-row {
+	padding-bottom: 10px;
+}
+
+.photo-min {
+  border-radius: 100px; /* Радиус скругления */
+  box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.2);
+  width:60px;
+  height:60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: justify;
+		color: #FFFFFF;
+		background-color: #2C3539
+}
+
